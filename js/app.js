@@ -60,7 +60,8 @@ const renderizarUsuarios = () => {
   for(const usuario of usuarios){
     contenedorHTML.innerHTML += `
       <div class = card-usuario>
-        <h3>Nombre: ${usuario.nombre}</h3>
+        <h3>Reservación para:</h3>
+        <p>Nombre: <strong>${usuario.nombre}</strong></p>
         <p><strong>Email:</strong> ${usuario.email}</p>
         <p><strong>Telefono:</strong> ${usuario.telefono}</p>
         <p><strong>Fecha de llegada:</strong> ${usuario.llegada}</p>
